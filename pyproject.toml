@@ -6,6 +6,20 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+typer = "^0.4.1"
+pydantic = "^1.9.0"
+aiohttp = "^3.8.1"
+StrEnum = "^0.4.7"
+fastapi = "^0.76.0"
+uvicorn = {extras = ["standard"], version = "^0.17.6"}
+redis = "^4.2.2"
+types-redis = "^4.2.2"
+aioredis = "^2.0.1"
+fakeredis = "^1.7.4"
+pytest-asyncio = "^0.18.3"
+pytest-trio = "^0.7.0"
+pytest-mock = "^3.7.0"
+pytest-aiohttp = "^1.0.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0"
