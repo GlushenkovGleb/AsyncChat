@@ -25,7 +25,10 @@ class ChatCrud:
     async def register_user(self, name: str) -> int:
         """Register user to redis, returns for of new user"""
         user_id = await self.redis.get('ID_COUNTER')
-        user_id = int(user_id)
+        if user_id is None:
+            user_id = 0
+        else:
+            user_id = int(user_id)
 
         await self.redis.incr('ID_COUNTER')
 

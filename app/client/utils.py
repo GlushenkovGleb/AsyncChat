@@ -7,9 +7,9 @@ from strenum import StrEnum
 
 
 class Url(StrEnum):
-    MESSAGES = 'http://127.0.0.1:8000/messages'
-    USER_CREATE = 'http://127.0.0.1:8000/users'
-    WEBSOCKET = 'http://127.0.0.1:8000/ws'
+    MESSAGES = 'http://0.0.0.0:8090/messages'
+    USER_CREATE = 'http://0.0.0.0:8090/users'
+    WEBSOCKET = 'http://0.0.0.0:8090/ws'
 
 
 class WORD(StrEnum):
