@@ -36,8 +36,11 @@ format: ## Formats all files
 .PHONY: ci
 ci:	lint test ## Lint code then run tests
 
-up:
+start:
 	python -m app
+
+up:
+	docker-compose up
 
 client:
 	python -m app.client

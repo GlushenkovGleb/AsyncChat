@@ -35,4 +35,4 @@ COPY app app
 COPY Makefile Makefile
 
 ENTRYPOINT []
-CMD ["make", "up"]
+CMD ["make", "start"]

@@ -1,4 +1,4 @@
-# homework7
+# Async Chat
 
 ### Description:
 An asynchronous chat that multiple users can use. Console client is provided. To start chatting you need to 
